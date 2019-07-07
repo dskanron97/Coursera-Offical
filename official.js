@@ -1,8 +1,13 @@
-(function(window) {
-  var byeSpeaker = new Object();
-  var speakWord = "Good Bye";
-  byeSpeaker.speak = function speak(name) {
-      console.log(speakWord + " " + name);
-  };
-  window.byeSpeaker = byeSpeaker;
-})(window);
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Doug's Module 4 Assignment</title>
+  <script src="SpeakHello.js"></script>
+  <script src="SpeakGoodBye.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Module 4 Solution</h1>
+</body>
+</html>
